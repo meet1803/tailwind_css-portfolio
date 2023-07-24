@@ -5,7 +5,11 @@ module.exports= {
   theme: {
     extend: {fontFamily:{
       'Montserrat' :["'Montserrat'",'sans-serif'],
-    },},
+    },
+    scale: {
+      '200': '2.00',
+    }
+  },
   },
   plugins: [require("daisyui")],
 }
